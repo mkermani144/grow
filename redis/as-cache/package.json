@@ -1,0 +1,11 @@
+{
+  "name": "as-cache",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "^0.5.0"
+  },
+  "dependencies": {
+    "redis": "^4.6.10"
+  }
+}
