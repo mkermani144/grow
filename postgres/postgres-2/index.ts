@@ -1,3 +1,6 @@
+/**
+ * Get started with knex
+ */
 import knexFactory from "knex";
 
 const knex = knexFactory({
