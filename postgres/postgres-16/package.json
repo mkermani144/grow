@@ -1,0 +1,12 @@
+{
+  "name": "postgres-2",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "^0.5.0"
+  },
+  "dependencies": {
+    "knex": "^3.0.1",
+    "pg": "^8.11.3"
+  }
+}
