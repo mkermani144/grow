@@ -1,4 +1,4 @@
-// results
+// propagating errors
 
 use std::{
     error::Error,
@@ -16,7 +16,7 @@ impl Display for DumbError {
     }
 }
 
-fn create_option() -> Result<u64, DumbError> {
+fn create_result() -> Result<u64, DumbError> {
     let current_time = SystemTime::now()
         .duration_since(UNIX_EPOCH)
         .unwrap()
@@ -29,11 +29,10 @@ fn create_option() -> Result<u64, DumbError> {
     }
 }
 
-fn main() {
-    let current_time =g create_option();
+fn main() -> Result<(), DumbError> {
+    let current_time = create_result()?;
 
-    match current_time {
-        Ok(secs) => println!("current time: {secs}"),
-        Err(error) => println!("{error}"),
-    }
+    println!("current time: {current_time}");
+
+    Ok(())
 }
