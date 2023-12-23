@@ -32,6 +32,8 @@ fn create_option() -> Result<u64, DumbError> {
 fn main() {
     let current_time =g create_option();
 
+    let x = vec!([1, 2, 3]);
+
     match current_time {
         Ok(secs) => println!("current time: {secs}"),
         Err(error) => println!("{error}"),
