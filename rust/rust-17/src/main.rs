@@ -1,4 +1,4 @@
-// super and crate
+// self
 
 mod awesome_file_module;
 
