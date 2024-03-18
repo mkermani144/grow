@@ -1,0 +1,11 @@
+{
+  "name": "testchain",
+  "module": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "bun main.js"
+  },
+  "devDependencies": {
+    "bun-types": "^0.5.0"
+  }
+}
