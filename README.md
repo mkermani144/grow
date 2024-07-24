@@ -6,4 +6,4 @@
 - [ ] read Rosen Bridge contracts
 
 ## JS
-- [ ] build a "this"-based + prototype architecture
+- [x] build a "this"-based + prototype architecture
