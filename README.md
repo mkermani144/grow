@@ -7,3 +7,6 @@
 
 ## JS
 - [x] build a "this"-based + prototype architecture
+
+## AI
+- [ ] write a simple chat bot with AI
